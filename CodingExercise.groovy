@@ -22,7 +22,7 @@ if(!dir.isDirectory()){
    System.exit(-2)
 }
 
-//Searching of files to be modified based on a given pattern
+//Listing of files to be modified given if it satisfies the given string pattern.
 println "Searching for files in directory ${directoryName}..."
 def listFiles =
 {
