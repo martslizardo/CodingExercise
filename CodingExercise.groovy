@@ -1,10 +1,6 @@
-import groovy.time.TimeCategory 
-import groovy.time.TimeDuration
-
+import groovy.io.FileType
 def directoryName = args[1]
 def dir = new File(directoryName);
-import groovy.io.FileType
-
 def find = args[3]
 def replacement = args[5]
 def viewDirectory = args[7]
