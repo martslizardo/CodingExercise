@@ -16,8 +16,7 @@ groovy CodingExercise.groovy --directory resources --stringPattern Sample --repl
 For Checking purposes, i also included the text files of the original version and the modified version of the file.
 
 ```
-resources
-|   Original.txt
-|   Replaced.txt
-
+└───resources
+│   │   Original.txt
+│   │   Replaced.txt
 ```
